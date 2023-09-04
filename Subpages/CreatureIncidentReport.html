@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+    <head>
+        <meta charset="UTF-8"> 
+        <style> @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=New+Tegomin&display=swap'); </style>
+        <title>
+            Department for the control and regulation of magical creatures
+        </title>
+        <link rel="stylesheet" href="../MoMStyles.css">
+    </head>
+    <body>
+        <header class="mainPage">
+            <a href="../MainPages/DepartmentFtCaRoMC.html" aria-label="back to Department Homepage"><img style="background-color: #FFF8E7; border-radius: 80px; height: 40mm; width: 40mm;" src="../InhaltUndDesignAssets/Department_for_the_Regulation_and_Control_of_Magical_Creatures_logo.png" alt="Department Logo" height="463" width="468"></a>
+            <h1>Department for the control and regulation of magical creatures</h1>
+        </header>
+            <nav> 
+                <ul>
+                    <li><a href="../MainPages/MinisterForMagicAndSupportStaff.html">Minister For magic and Support staff</a></li>
+                    <li><a href="../MainPages/DepartmentOfMagicalLawEnforcement.html">Department of Magical Law Enforcement</a></li>
+                    <li><a href="../MainPages/DepartmentOfMagicalCatastrophesAndAccidents.html">Department of magical accidents and catastrophes</a></li>
+                    <li><a href="../MainPages/DepartmentFtCaRoMC.html">Department for the regulation and control of magical creatures</a></li>
+                    <li><a href="../MainPages/DepartmentOfInternationalMagicalCoorperation.html">Department of international magical co-operation</a></li>
+                    <li><a href="../MainPages/DepartmentOfMagicalTransportation.html">department of magical transportation</a></li>
+                    <li><a href="../MainPages/DepartmentOfMagicalGamesAndSports.html">department of magical games and sports</a></li>
+                    <li><a href="../MainPages/TheAtrium.html">The Atrium</a></li>
+                    <li><a href="../MainPages/DepartmentOfMysteries.html">Department of Mysteries</a></li>
+                </ul>
+            </nav>
+            <main>
+                <form action="https://jsonplaceholder.typicode.com/posts/1" method="post" aria-labelledby="formDescription">
+                    <h2 aria-hidden="true" id="formDescription">Creature Incident Report</h2> 
+                    <p>Report sightings of dangerous magical creatures in the wild.<br>Please state your name, in case our employees at the Office of Misinformation need further insight into the reported incident.</p>
+                    <div>
+                        <div>
+                            <label for="Lastname">Lastname</label>
+                            <input type="text" id="Lastname" name="lastname" required>
+                        </div>
+                        <div>
+                            <label for="Surname">Surname</label>    
+                            <input type="text" id="Surname" name="surname" required>
+                        </div>
+                    </div>
+                    <label for="creature">Which creature has been sighted?</label>
+                            <input type="text" id="creature" name="which creature" required>
+                            <label for="site">Location of the sighting</label>
+                            <input type="text" id="site" name="where" required>
+                        <fieldset>
+                            <legend>Ministry of Magic Classification of the sighted creature</legend>
+                            <div>
+                                <input type="checkbox" id="5X" name="highly dangerous">
+                                <label for="5X">XXXXX Known wizard killer / cannot be trained of domesticated</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="4X" name="less dangerous">
+                                <label for="4X">XXXX Dangerous / requires specialist knowledge / skilled wizard may handle</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="3X" name="I am not competent">
+                                <label for="3X">XXX Competent wizards should cope</label>
+                            </div>
+                        </fieldset>
+                        <input type="submit" value="Send report">
+                    </form>
+
+                </main>
+        <footer>
+            <img src="../InhaltUndDesignAssets/MoMLogo.svg" alt="Ministry of Magic Logo" width="377" height="364">
+            <div>
+                <h5>Where to find us?</h5>
+                deep under the HM treasury building and Whitehall<br>
+                Scotland Pl, Westminster, London SW1A 2BD,0 UK<br>
+                For more information click here
+            </div>
+        </footer>
+    </body>
+</html>
